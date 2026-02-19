@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadowKingVel | Freelance Gaming Video Editor</title>
+    <style>
+        :root { --accent: #1dbf73; --bg: #0a0a0a; --text: #e0e0e0; }
+        body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin: 0; scroll-behavior: smooth; }
+        section { padding: 80px 10%; min-height: 80vh; display: flex; flex-direction: column; justify-content: center; }
+        
+        /* Manifesto Section */
+        #home h1 { font-size: 3.5rem; margin-bottom: 10px; color: #fff; }
+        .manifesto { font-size: 1.5rem; border-left: 4px solid var(--accent); padding-left: 20px; font-style: italic; color: #aaa; max-width: 700px; }
+        
+        /* Portfolio Player */
+        .playlist-container { width: 100%; max-width: 900px; margin-top: 30px; background: #151515; padding: 15px; border-radius: 12px; border: 1px solid #333; }
+        iframe { width: 100%; aspect-ratio: 16/9; border-radius: 8px; border: none; }
+        
+        /* Service Ladder */
+        .tiers { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 30px; }
+        .tier { flex: 1; min-width: 250px; background: #111; padding: 30px; border: 1px solid #333; border-radius: 12px; text-align: center; transition: 0.3s; }
+        .tier.featured { border-color: var(--accent); transform: scale(1.05); }
+        .tier h3 { color: var(--accent); font-size: 1.8rem; margin: 0; }
+        .price { font-size: 2.5rem; font-weight: bold; display: block; margin: 15px 0; }
+        
+        /* Interactive Elements */
+        .btn { display: inline-block; background: var(--accent); color: #000; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; margin-top: 20px; transition: 0.3s; }
+        .btn:hover { background: #19a463; box-shadow: 0 0 20px rgba(29, 191, 115, 0.4); }
+        
+        footer { text-align: center; padding: 60px; color: #444; border-top: 1px solid #222; }
+    </style>
+</head>
+<body>
+
+<section id="home">
+    <h1>ShadowKingVel</h1>
+    <p class="manifesto">“I forge retention arcs that refuse to bleed viewers.”</p>
+    <a href="#portfolio" class="btn">View My Reel</a>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio Portfolio Playlist</h2>
+    <div class="playlist-container">
+        <!-- Official Embed for your Playlist -->
+        <iframe src="
+https://www.youtube.com
+" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Service Ladder</h2>
+    <div class="tiers">
+        <div class="tier">
+            <h3>The Test</h3>
+            <span class="price">$10</span>
+            <p>One 60-second high-retention Short/TikTok. Proof of concept for your channel.</p>
+            <a href="https://www.fiverr.com/s/VYEoNpx" class="btn">Order Test</a>
+        </div>
+        <div class="tier featured">
+            <h3>The Final</h3>
+            <span class="price">$25+</span>
+            <p>Full long-form edit. Expert pacing, storytelling, and custom sound design.</p>
+            <a href="https://www.fiverr.com/s/VYEoNpx" class="btn">Start Project</a>
+        </div>
+        <div class="tier">
+            <h3>Retainer</h3>
+            <span class="price">Tier 3</span>
+            <p>Monthly pipeline strategy. Direct priority access for recurring creators.</p>
+            <a href="mailto:shadowkingvel@proton.me" class="btn">Inquire</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Direct Contact</h2>
+    <p>For high-stakes edits or custom retainer quotes:</p>
+    <p><strong>Email:</strong> shadowkingvel@proton.me (Proton Encrypted)</p>
+    <p><strong>X:</strong> <a href="#" style="color:var(--accent)">@ShadowKingVel</a></p>
+</section>
+
+<footer>
+    <p>𓂀</p>
+    <p>Cairo, 2026</p>
+</footer>
+
+</body>
+</html>
